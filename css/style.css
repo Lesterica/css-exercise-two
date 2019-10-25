@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fefdfb;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.4em;
 }
 
 nav {
@@ -10,6 +12,23 @@ nav {
   width: 100%;
 }
 
+h1 {
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: .05em;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: .05em;
+  line-height: 1.2em;
+}
+
+figcaption {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
 .logo {
   margin: 20px;
   width: 100px;
@@ -17,6 +36,10 @@ nav {
 
 .large-pic {
   width: 100%;
+}
+
+figure {
+  padding-top: 20px;
 }
 
 .medium-pic {
@@ -32,9 +55,21 @@ nav {
   float: right;
 }
 
+.right, a {
+	text-decoration: none;
+}
+
 ul {
   list-style-type: none;
   float: right;
+}
+
+a:hover {
+  color: orange;
+}
+
+a {
+  color: white;
 }
 
 li {
@@ -43,10 +78,24 @@ li {
 }
 
 article {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.container, h1 {
+	padding-top: 50px;
+	padding-bottom: 13px;
+}
+
+.author, p {
+	padding-top: 1px;
+}
+
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
